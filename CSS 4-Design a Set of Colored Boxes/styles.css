@@ -1,0 +1,22 @@
+body{
+    background-color: #f4f4f4;
+}
+.color-box{
+    width: 20px;
+    height: 20px;
+}
+.color1{
+    background-color: #268967;
+}
+.color2{
+    background-color: rgb(200, 10, 90);
+}
+.color3{
+    background-color: yellowgreen;
+}
+.color4{
+    background-color: hsl(20, 90%, 50%);
+}
+.color5{
+    background-color: wheat;
+}
