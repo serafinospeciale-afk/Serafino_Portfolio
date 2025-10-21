@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: peru;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+ul li a:hover{
+color:blueviolet
+}
+#welcome{
+    height:100vh;
+    font-weight: bold;
+}
+a{
+    color:darkmagenta;
+}
+nav{
+    position:sticky;
+    top: 0;
+   /* <!-- z-index: */
+}
+.pimages img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+#welcome{
+    background-image: url("deathimg.jpg") ;
+    background-size: cover;
+    background-position: center center;
+}
+#projects{
+    background-image: url(orangecol.jpg);
+}
+p,h1{
+    margin-left: 20px;
+    color: darkred;
+}
+h1{
+    padding-top: 50px;
+    color: whitesmoke;
+}
+#images{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    width: 100vw;
+    align-content: center;
+}
+.pimages{
+flex: 0 0 50%;
+}
+p{
+    text-align:center
+}
+h1{
+    text-align: center;
+}
+#projects h1{
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+img{
+    height:50vh;
+    width:auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width:500px) {
+#me{
+    width:200px;
+    height:auto;
+}
+#links{
+    margin: 10px;
+    background-color: lightsalmon;
+}
